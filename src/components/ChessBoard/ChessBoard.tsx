@@ -65,9 +65,6 @@ const ChessBoard = () => {
       const x = e.clientX - 50;
       const y = e.clientY - 50;
       activePiece.style.position = "absolute";
-      // activePiece.style.left = `${x}px`;
-      // activePiece.style.top = `${y}px`;
-
       if (x < minX) {
         activePiece.style.left = `${minX}px`;
       } else if (x > maxX) {
